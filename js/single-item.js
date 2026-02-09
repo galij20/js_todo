@@ -19,7 +19,7 @@ export function createSingleItem(item) {
   
   const checkbox = div.querySelector('input[type="checkbox"]');
   checkbox.addEventListener("change", () => editCompleted(item.id));
-
+  
   const removeBtn = div.querySelector(".remove-btn");
   removeBtn.addEventListener("click", () => removeItem(item.id));
 
