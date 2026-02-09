@@ -1,8 +1,8 @@
-import { groceryItems } from "./data.js";
+import { todoList } from "./data.js";
 import { createItems } from "./items.js";
 import { createForm } from "./form.js";
 
-let items = groceryItems;
+let items = todoList;
 
 // Render App
 function render() {
