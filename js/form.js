@@ -10,7 +10,7 @@ export function createForm() {
       <input
         type="text"
         class="form-input"
-        placeholder="e.g. eggs"
+        placeholder="e.g. Work on project"
       />
       <button type="submit" class="btn">
         add item
