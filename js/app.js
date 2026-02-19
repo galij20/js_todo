@@ -83,7 +83,7 @@ export function setEditId(itemId) {
 }
 
 function getLocalStorage() {
-  const list = localStorage.getItem("grocery-list");
+  const list = localStorage.getItem("todo-list");
   if (list) {
     return JSON.parse(list);
   }
@@ -92,5 +92,5 @@ function getLocalStorage() {
 
 
 function setLocalStorage(itemsArray) {
-  localStorage.setItem("grocery-list", JSON.stringify(itemsArray));
+  localStorage.setItem("todo-list", JSON.stringify(itemsArray));
 }
